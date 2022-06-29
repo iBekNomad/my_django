@@ -20,3 +20,12 @@ def article_create_view(request):
             'author': request.POST.get('author')
         }
         return render(request, 'article_view.html', context)
+
+
+def article_view(request):
+    article_id = request.GET.get('pk')
+    article = Article.objects.get(pk=article_id)
+    context = {
+        'article': article
+    }
+    return render(request, 'article_view.html', context)

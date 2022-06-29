@@ -17,6 +17,7 @@
         <h3>{{ article.pk }}. {{ article.title }}</h3>
         <p>{{ article.author }} | {{ article.created_at }}</p>
         <div>{{ article.text }}</div>
+        <p><a href="/article/?pk={{ article.pk }}">More...</a> </p>
     {% endfor %}
     <p><a href="articles/add/">Add Article</a></p>
 </div>
