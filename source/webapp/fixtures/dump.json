@@ -1,0 +1,152 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 1,
+  "fields": {
+    "title": "New Article",
+    "text": "Long long text",
+    "author": "John Smit",
+    "created_at": "2022-06-27T09:41:29.294Z",
+    "updated_at": "2022-06-27T09:41:29.294Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 2,
+  "fields": {
+    "title": "Article 0",
+    "text": "My awesome article 0",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.980Z",
+    "updated_at": "2022-06-27T09:51:54.980Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 3,
+  "fields": {
+    "title": "Article 1",
+    "text": "My awesome article 1",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.981Z",
+    "updated_at": "2022-06-27T09:51:54.981Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 4,
+  "fields": {
+    "title": "Article 2",
+    "text": "My awesome article 2",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.982Z",
+    "updated_at": "2022-06-27T09:51:54.982Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 5,
+  "fields": {
+    "title": "Force",
+    "text": "May the force be with you!",
+    "author": "Mater Yoda",
+    "created_at": "2022-06-27T09:51:54.983Z",
+    "updated_at": "2022-06-29T09:55:41.882Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "title": "Article 4",
+    "text": "My awesome article 4",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.984Z",
+    "updated_at": "2022-06-27T09:51:54.984Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "title": "Article 5",
+    "text": "My awesome article 5",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.985Z",
+    "updated_at": "2022-06-27T09:51:54.985Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 8,
+  "fields": {
+    "title": "Article 6",
+    "text": "My awesome article 6",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.985Z",
+    "updated_at": "2022-06-27T09:51:54.985Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 9,
+  "fields": {
+    "title": "Article 7",
+    "text": "My awesome article 7",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.986Z",
+    "updated_at": "2022-06-27T09:51:54.986Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 10,
+  "fields": {
+    "title": "Article 8",
+    "text": "My awesome article 8",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.987Z",
+    "updated_at": "2022-06-27T09:51:54.987Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 11,
+  "fields": {
+    "title": "Article 9",
+    "text": "My awesome article 9",
+    "author": "Me",
+    "created_at": "2022-06-27T09:51:54.988Z",
+    "updated_at": "2022-06-27T09:51:54.988Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 12,
+  "fields": {
+    "title": "taipan article",
+    "text": "",
+    "author": "Nomad",
+    "created_at": "2022-06-28T10:42:28.172Z",
+    "updated_at": "2022-06-28T10:45:35.492Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$srBRNqjnZVcU$XUdZb2A+aWoz1c0UFiEDtUH0ql4XeyxhwjtLyIZPcFo=",
+    "last_login": "2022-06-29T09:48:07Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Admin",
+    "last_name": "Adminov",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-06-29T09:47:34Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
