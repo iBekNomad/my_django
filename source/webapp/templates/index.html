@@ -11,9 +11,14 @@
 </head>
 <body>
 <div class="container">
-    <p>This is my first Django project!</p>
-    <p>Hello World!</p>
-    <a href="articles/add/">Article Create</a>
+    <h1>Articles</h1>
+    <p><a href="articles/add/">Add Article</a></p>
+    {% for article in articles %}
+        <h3>{{ article.pk }}. {{ article.title }}</h3>
+        <p>{{ article.author }} | {{ article.created_at }}</p>
+        <div>{{ article.text }}</div>
+    {% endfor %}
+    <p><a href="articles/add/">Add Article</a></p>
 </div>
 </body>
 </html>

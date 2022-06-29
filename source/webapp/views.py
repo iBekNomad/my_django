@@ -1,9 +1,13 @@
 from django.shortcuts import render
+from webapp.models import Article
 
 
 def index_view(request):
-    print(request.GET.getlist('title'))
-    return render(request, 'index.html')
+    articles = Article.objects.all()
+    context = {
+        'articles': articles
+    }
+    return render(request, 'index.html', context)
 
 
 def article_create_view(request):
