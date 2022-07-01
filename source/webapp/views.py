@@ -19,7 +19,7 @@ def article_create_view(request):
             'content': request.POST.get('content'),
             'author': request.POST.get('author')
         }
-        return render(request, 'article_view.html', context)
+        return render(request, 'article_create.html', context)
 
 
 def article_view(request):
